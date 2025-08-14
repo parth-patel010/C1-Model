@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Grid with Price Badges</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4 sm:p-6 md:p-8">
+
+    <div class="w-full max-w-6xl">
+        <h1 class="text-4xl font-bold text-center text-gray-800 mb-10">Our Menu</h1>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/a78bfa/ffffff?text=Espresso" alt="A cup of espresso">
+                <div class="p-6">
+                    <div class="flex justify-between items-start">
+                        <h2 class="text-2xl font-bold text-gray-900">Espresso</h2>
+                        <span class="bg-green-500 text-white text-sm font-semibold px-3 py-1 rounded-full">$2.50</span>
+                    </div>
+                    <p class="text-gray-600 mt-2">A concentrated coffee beverage brewed by forcing a small amount of nearly boiling water under pressure through finely-ground coffee beans.</p>
+                    <button class="mt-4 w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/facc15/333333?text=Cappuccino" alt="A cup of cappuccino with latte art">
+                <div class="p-6">
+                    <div class="flex justify-between items-start">
+                        <h2 class="text-2xl font-bold text-gray-900">Cappuccino</h2>
+                        <span class="bg-green-500 text-white text-sm font-semibold px-3 py-1 rounded-full">$3.50</span>
+                    </div>
+                    <p class="text-gray-600 mt-2">An espresso-based coffee drink that originated in Italy, prepared with steamed milk foam (microfoam).</p>
+                    <button class="mt-4 w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/fb923c/ffffff?text=Croissant" alt="A flaky croissant">
+                <div class="p-6">
+                    <div class="flex justify-between items-start">
+                        <h2 class="text-2xl font-bold text-gray-900">Croissant</h2>
+                        <span class="bg-green-500 text-white text-sm font-semibold px-3 py-1 rounded-full">$2.75</span>
+                    </div>
+                    <p class="text-gray-600 mt-2">A buttery, flaky, viennoiserie pastry of Austrian origin, named for its historical crescent shape.</p>
+                    <button class="mt-4 w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/7dd3fc/333333?text=Iced+Latte" alt="A glass of iced latte">
+                <div class="p-6">
+                    <div class="flex justify-between items-start">
+                        <h2 class="text-2xl font-bold text-gray-900">Iced Latte</h2>
+                        <span class="bg-green-500 text-white text-sm font-semibold px-3 py-1 rounded-full">$4.00</span>
+                    </div>
+                    <p class="text-gray-600 mt-2">A cold coffee drink made up of ice, a shot of espresso, and cold milk. Simple, refreshing, and delicious.</p>
+                    <button class="mt-4 w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/c084fc/ffffff?text=Muffin" alt="A blueberry muffin">
+                <div class="p-6">
+                    <div class="flex justify-between items-start">
+                        <h2 class="text-2xl font-bold text-gray-900">Blueberry Muffin</h2>
+                        <span class="bg-green-500 text-white text-sm font-semibold px-3 py-1 rounded-full">$3.25</span>
+                    </div>
+                    <p class="text-gray-600 mt-2">A soft, sweet individual-sized, cupcake-like quick bread, packed with fresh and juicy blueberries.</p>
+                    <button class="mt-4 w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/f87171/ffffff?text=Cheesecake" alt="A slice of cheesecake">
+                <div class="p-6">
+                    <div class="flex justify-between items-start">
+                        <h2 class="text-2xl font-bold text-gray-900">Cheesecake</h2>
+                        <span class="bg-green-500 text-white text-sm font-semibold px-3 py-1 rounded-full">$5.50</span>
+                    </div>
+                    <p class="text-gray-600 mt-2">A sweet dessert consisting of a mixture of soft, fresh cheese, eggs, and sugar on a crumbly crust.</p>
+                    <button class="mt-4 w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300">Add to Cart</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
